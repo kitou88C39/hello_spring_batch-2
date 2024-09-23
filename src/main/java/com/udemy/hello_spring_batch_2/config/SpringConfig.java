@@ -13,6 +13,11 @@ public class SpringConfig {
     private final JobRepository jobRepository;
     private final PlatformTransactionManager transactionManager;
 
-    public SpringConfig(JobLauncher jobLauncher, JobRepository jobRepository, PlatformTransactionManager transactionManager)
+    public SpringConfig(JobLauncher jobLauncher, JobRepository jobRepository,
+            PlatformTransactionManager transactionManager) {
+        this.jobLauncher = jobLauncher;
+        this.jobRepository = jobRepository;
+        this.transactionManager = transactionManager;
 
+    }
 }
