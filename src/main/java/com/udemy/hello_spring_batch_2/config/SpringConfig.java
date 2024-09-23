@@ -9,6 +9,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 @Configuration
 public class SpringConfig {
 
+    // JobLauncher/JobRepository/PlatformTransactionManagerのクラス変数及びコンストラクタによる設定を記載する
     private final JobLauncher jobLauncher;
     private final JobRepository jobRepository;
     private final PlatformTransactionManager transactionManager;
