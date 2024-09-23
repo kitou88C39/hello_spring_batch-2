@@ -5,10 +5,10 @@ import org.springframework.batch.core.repository.JobRepository;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.PlatformTransactionManager;
 
+// @Configurationアノテーションを付与する
+@Configuration
 public class SpringConfig {
 
-    // @Configurationアノテーションを付与する
-    @Configuration
     private final JobLauncher jobLauncher;
     private final JobRepository jobRepository;
     private final PlatformTransactionManager transactionManager;
