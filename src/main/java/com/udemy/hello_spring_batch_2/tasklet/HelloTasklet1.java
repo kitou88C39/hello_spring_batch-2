@@ -18,6 +18,7 @@ public class HelloTasklet1 implements Tasklet {
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
         System.out.println("Hello Tasklet1!!!");
+        // RepeatStatus.FINISHEDは、executeメソッドが正常終了したことを示す
+        return RepeatStatus.FINISHED;
     }
-
 }
