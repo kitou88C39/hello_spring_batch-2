@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 //@Componentアノテーションによって、Spring Beanとして登録される
 
-@Component
+@Component("Hello Tasklet1")
 // StepScopeアノテーションによって、インスタンスをステップごとに生成・破棄する
 @StepScope
 // Tasklet インターフェイスexecuteメソッドを実装する
