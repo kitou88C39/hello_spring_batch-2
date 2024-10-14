@@ -9,6 +9,8 @@ public class Employee {
     private int deptId;
 
     public Employee(int id, int employeeId, String firstName, String lastName, int deptId) {
+        super();
+        this.id = id;
     }
 
     // Getter methods
