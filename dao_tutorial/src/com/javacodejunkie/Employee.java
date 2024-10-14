@@ -11,6 +11,10 @@ public class Employee {
     public Employee(int id, int employeeId, String firstName, String lastName, int deptId) {
         super();
         this.id = id;
+        this.employeeId = employeeId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.deptId = deptId;
     }
 
     // Getter methods
