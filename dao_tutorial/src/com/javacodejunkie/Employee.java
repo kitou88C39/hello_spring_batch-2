@@ -8,4 +8,12 @@ public class Employee {
     private String lastName;
     private int deptId;
 
+    public int getId() {
+        return id;
+    }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
 }
