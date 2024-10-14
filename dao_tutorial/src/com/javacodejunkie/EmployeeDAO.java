@@ -1,6 +1,7 @@
 package com.javacodejunkie;
 
-import java.spl.SQLException;
+import java.sql.SQLException;
+import java.util.List;
 
 public interface EmployeeDAO {
 
@@ -11,4 +12,8 @@ public interface EmployeeDAO {
     int save(Employee employee) throws SQLException;
 
     int insert(Employee employee) throws SQLException;
+
+    int update(Employee employee) throws SQLException;
+
+    int delete(Employee employee);
 }
