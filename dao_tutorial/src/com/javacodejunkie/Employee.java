@@ -16,4 +16,12 @@ public class Employee {
         return employeeId;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
 }
