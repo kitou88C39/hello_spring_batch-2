@@ -1,5 +1,9 @@
 package com.javacodejunkie;
 
-public class EmployeeDAO {
+import ch.qos.logback.core.spi.ScanException;
+
+public interface EmployeeDAO {
+
+    Employee get(int id) throws ScanException;
 
 }
