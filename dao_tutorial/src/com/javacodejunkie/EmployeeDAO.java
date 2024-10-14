@@ -8,4 +8,7 @@ public interface EmployeeDAO {
 
     List<Employee> getAll() throws SQLException;
 
+    int save(Employee employee) throws SQLException;
+
+    int insert(Employee employee) throws SQLException;
 }
