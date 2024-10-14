@@ -8,6 +8,7 @@ public class Employee {
     private String lastName;
     private int deptId;
 
+    // Getter methods
     public int getId() {
         return id;
     }
@@ -22,6 +23,15 @@ public class Employee {
 
     public String getLastName() {
         return lastName;
+    }
+
+    public int getDeptId() {
+        return deptId;
+    }
+
+    // Setter methods
+    public void setId(int id) {
+        this.id = id;
     }
 
 }
