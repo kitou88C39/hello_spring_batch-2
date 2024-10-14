@@ -1,9 +1,11 @@
 package com.javacodejunkie;
 
-import ch.qos.logback.core.spi.ScanException;
+import java.spl.SQLException;
 
 public interface EmployeeDAO {
 
-    Employee get(int id) throws ScanException;
+    Employee get(int id) throws SQLException;
+
+    List<Employee> getAll() throws SQLException;
 
 }
