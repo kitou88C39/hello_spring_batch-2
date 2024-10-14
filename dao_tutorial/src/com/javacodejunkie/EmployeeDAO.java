@@ -1,5 +1,5 @@
 package com.javacodejunkie;
 
-public class EmployeeDAO {
+public interface EmployeeDAO extends DAO<Employee>{
     
 }
