@@ -9,11 +9,11 @@ public interface DAO<T> {
 
     List<T> getAll() throws SQLException;
 
-    int save(T employee) throws SQLException;
+    int save(T t) throws SQLException;
 
-    int insert(T employee) throws SQLException;
+    int insert(T t) throws SQLException;
 
-    int update(T employee) throws SQLException;
+    int update(T t) throws SQLException;
 
-    int delete(T employee);
+    int delete(T t);
 }
