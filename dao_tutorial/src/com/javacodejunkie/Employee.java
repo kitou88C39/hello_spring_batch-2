@@ -8,6 +8,9 @@ public class Employee {
     private String lastName;
     private int deptId;
 
+    public Employee(int id, int employeeId, String firstName, String lastName, int deptId) {
+    }
+
     // Getter methods
     public int getId() {
         return id;
